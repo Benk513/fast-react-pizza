@@ -68,6 +68,7 @@ function CreateOrder() {
             // onChange={(e) => setWithPriority(e.target.checked)}
           />
           <label htmlFor="priority">Want to yo give your order priority?</label>
+          <input type="hidden" name="cart" value={JSON.stringify(cart)} />
         </div>
 
         <div>
@@ -85,7 +86,13 @@ export async function action({request}){
   const formData =await request.formData()
   const data = Object.fromEntries(formData)
 
-  console.log(data)
+  const order ={
+    ...data,
+    cart:JSON.parse(data.cart),
+    priority: data.priority ==="on"
+  }
+
+  console.log(order)
 
   return null;
 }
