@@ -10,7 +10,7 @@ const AppLayout = () => {
   const isLoading = navigation.state ==='loading'
   
   return (
-    <div className="">
+    <div className="grid">
     {isLoading &&<Loading/>}
     <Header/>
     <SearchOrder/>

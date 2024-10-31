@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <>
 
-    <Link to='/'>Fast Pizza Co.</Link>
+    <Link to='/' className="text-4xl">Fast Pizza Co.</Link>
     
     </>
   )
