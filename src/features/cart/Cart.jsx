@@ -4,6 +4,7 @@ import CartItem from './CartItem';
 import { useDispatch, useSelector } from 'react-redux';
 import { clearCart, getCart } from './cartSlice';
 import EmptyCart from './EmptyCart';
+import { getUsername } from '../user/userSlice';
 
 const fakeCart = [
   {
@@ -36,7 +37,10 @@ function Cart() {
 
   const cart = useSelector(getCart)
 
-  const username = useSelector(state => state.user.username)
+
+  console.log(cart)
+
+  const username = useSelector(getUsername)
 
   if(!cart.length) return <EmptyCart/>
 
@@ -48,7 +52,7 @@ function Cart() {
 
       <ul className="mt-3 divide-y divide-stone-200 border-b">
         {cart.map((item) => (
-          <CartItem item={item} key={item.key} />
+          <CartItem item={item}  key={item.pizzaId} />
         ))}
       </ul>
 
