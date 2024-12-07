@@ -33,3 +33,10 @@ Even after placing an order, users can choose to mark it as "priority" for faste
     <h2>🔗Live Demo</h2>
 https://fastpizzacobenkuyu.netlify.app/
   <h2>👩‍💻Techologies and Tools</h2>
+<p>Frontend: React.js, Tailwind CSS</p>
+<p>State Management: Redux Toolkit</p>
+<p>Backend API: react-fast-pizza-api </p>
+<p>Geolocation: api.bigdatacloud</p>
+
+
+
