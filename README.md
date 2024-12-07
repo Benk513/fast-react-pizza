@@ -1,5 +1,5 @@
 <h2 align="center">🍕Fast Pizza Co.</h2>
-<img src="https://github.com/dasha-musienko/weather-forecast/blob/main/src/img/gh_descr/cover.jpeg" alt="Cover image">
+<img src="https://github.com/dasha-musienko/weather-forecast/blob/main/src/img/gh_descr/cover.jpeg](https://github.com/Benk513/fast-react-pizza/blob/main/public/chrome-capture-2024-12-7.gif" alt="Cover image">
 <h2>⚡️Goal</h2>
 <p>The Simple Pizza Ordering App aims to provide a seamless and intuitive platform for users to order their favorite pizzas with minimal hassle. By leveraging API-driven menus and simplified order processing, the app ensures an efficient and enjoyable pizza ordering experience without the need for user accounts or complex payment systems.</p>
 
